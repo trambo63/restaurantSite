@@ -391,9 +391,9 @@ section
     header .navigation.active
     {
         width: 100%;
-        height: 100%;
+        height: calc(100% - 68px);
         position: fixed;
-        top: 0;
+        top: 68px;
         left: 0;
         display: flex;
         justify-content: center;
@@ -404,6 +404,11 @@ section
     header .navigation li 
     {
         margin-left: 0;
+    }
+    header .navigation li a
+    {
+        color: #111;
+        font-size: 1.6em;
     }
     .menuToggle
     {
@@ -427,4 +432,63 @@ section
     {
         filter: invert(1);
     }
+    section 
+    {
+        padding: 20px;
+    }
+    .banner .content h2 
+    {
+        font-size: 3em;
+        color: #fff;
+    }
+    .row
+    {
+        flex-direction: column;
+    } 
+    .row .col50
+    {
+        position: relative;
+        width: 100%;
+    }
+    .row .col50 .imgBx
+    {
+        height: 100%;
+        margin-top: 20px;
+    }
+    .menu .content
+    {
+        margin-top: 20px;
+    }
+    .menu .content .box
+    {
+        margin: 10px;
+    }
+    .menu .content .box .imgBx
+    {
+        height: 260px;
+    }
+    .title
+    {
+        text-align: center;
+    }
+    .titleText
+    {
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    .testimonials .content .box
+    {
+        width: 340px;
+        margin: 10px;
+        padding: 20px;
+    }
+    .contentFrom
+    {
+        padding: 35px 40px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
 }
